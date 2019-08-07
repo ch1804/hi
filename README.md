@@ -14,3 +14,9 @@ hello
 name|age|date
 :---:|:---:|:---:
 ch|17|2000-01-01
+```shell
+for i in `seq 10`
+do
+    print $i
+done
+```
